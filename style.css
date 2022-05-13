@@ -28,6 +28,7 @@ header h2 {
     color: var(--primary);
     height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 99%;
     padding: 30px 0;
@@ -60,11 +61,12 @@ header h2 {
 }
 
 #sophmore {
-    
+   
 }
 
+
 #junior {
-    
+   
 }
 
 #senior {
