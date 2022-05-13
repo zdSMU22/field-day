@@ -1,0 +1,79 @@
+:root {
+    --primary: rgb(245, 239, 239);
+    --secondary: rgb(197, 197, 0);
+    --tertiary: rgb(38, 113, 187);
+}
+body {
+    background-image: url(https://s18670.pcdn.co/wp-content/uploads/GettyImages-139744882.jpg);
+    background-size: cover;
+    display: inline-flexbox;
+}
+
+header h1 {
+    font-size: 65px;
+    text-align: center;
+    color: var(--primary);
+}
+
+header h2 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.score-container {
+    background-color: var(--tertiary);
+    border: 8px;
+    border-style: solid;
+    border-color: var(--secondary);
+    color: var(--primary);
+    height: fit-content;
+    display: inline-block;
+    width: 100%;
+}
+
+.score-container h3 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.score-container h4 {
+    font-size: 25px;
+    margin: 0;
+}
+
+#freshman {
+   display: inline;
+}
+
+#sophmore {
+    display: inline;
+}
+
+#junior {
+    display: inline;
+}
+
+#senior {
+    display: inline;
+}
+
+button {
+    background-color: var(--secondary);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    align-items: center;
+}
+
+footer {
+    color: var(--tertiary);
+    text-align: right;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: bolder;
+    background-color: var(--secondary);
+    background-size: contain;
+}
