@@ -21,7 +21,7 @@ header h2 {
 }
 
 .score-container {
-    background-color: rgb(131, 131, 153);
+    background-color: var(--tertiary);
     border: 8px;
     border-style: solid;
     border-color: var(--secondary);
@@ -52,6 +52,7 @@ header h2 {
     border-style: none;
     font-size: 60px;
     color: var(--primary);
+    text-shadow: 0 0 10px #ffffff;
     font-weight: 900;
     width: 200px;
     text-align: center;
@@ -61,7 +62,11 @@ header h2 {
     background-color: transparent;
     border-style: none;
     font-size: 60px;
-    color: purple;
+    text-shadow: 0 0 1vw #981deb, 0 0 3vw #981deb, 0 0 10vw #981deb, 0 0 10vw #981deb, 0 0 .4vw #aa6bf1, .2vw .2vw .1vw #3a0566;
+    color: var(--primary);
+animation: glow 1.2s ease infinite;
+  -moz-animation: glow 1.2s ease infinite;
+  -webkit-animation: glow 1.2s ease infinite;
     font-weight: 900;
     width: 300px;
     text-align: center;
@@ -71,7 +76,8 @@ header h2 {
     background-color: transparent;
     border-style: none;
     font-size: 60px;
-    color: red;
+    color: var(--primary);
+    text-shadow: 0 0 1vw #eb1d1d, 0 0 3vw #eb1d1d, 0 0 10vw #eb1d1d, 0 0 10vw #eb1d1d, 0 0 .4vw #f16b6b, .2vw .2vw .1vw #660505;
     font-weight: 900;
     width: 150px;
     text-align: center;
@@ -81,27 +87,45 @@ header h2 {
     background-color: transparent;
     border-style: none;
     font-size: 60px;
-    color: black;
+    color: var(--primary);
+    text-shadow: 0 0 1vw #000000, 0 0 3vw #000000, 0 0 10vw #000000, 0 0 10vw #000000, 0 0 .4vw #232224, .2vw .2vw .1vw #000000;
     font-weight: 900;
     width: 150px;
     text-align: center;
 }
 
-#freshman {
-   
+#c1, #freshman {
+    text-shadow: 0 0 1vw #ffffff;
+        animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
+        text-align: center;
 }
 
 #c2 {
- color: purple;
+     text-shadow: 0 0 1vw #981deb, 0 0 3vw #981deb, 0 0 10vw #981deb, 0 0 10vw #981deb, 0 0 .4vw #aa6bf1, .2vw .2vw .1vw #3a0566;
+          color: #ffffff;
+     animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
+        text-align: center;    
 }
 
 
 #c3 {
-    color: red;
+    text-shadow: 0 0 1vw #eb1d1d, 0 0 3vw #eb1d1d, 0 0 10vw #eb1d1d, 0 0 10vw #eb1d1d, 0 0 .4vw #f16b6b, .2vw .2vw .1vw #660505;
+          color: #ffffff;
+    animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
 }
 
 #c4{
-    color: black;
+    text-shadow: 0 0 1vw #000000, 0 0 3vw #000000, 0 0 10vw #000000, 0 0 10vw #000000, 0 0 .4vw #232224, .2vw .2vw .1vw #000000;
+          color: #ffffff;
+    animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
 }
 
 button {
@@ -112,7 +136,10 @@ button {
     font-size: 60px;
     border-style: none;
     font-weight: 900;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
 }
 
 
